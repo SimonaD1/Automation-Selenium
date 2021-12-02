@@ -1,0 +1,110 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 3,288.613 sec <<< FAILURE! - in TestSuite
+OnboardingContributor_TC001(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 48.486 sec  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Invalid user data in 'General information'.
+Invalid user data in 'Person responsible for this account'.
+Invalid address format filled. Please fill all the required fields.
+Invalid address format filled. Please fill all the required fields.
+Invalid user data in 'Licensing'.
+No channels selected for your content.] but found [Invalid user data in 'General information'.
+Invalid user data in 'Person responsible for this account'.
+Invalid address format filled. Please fill all the required fields.
+Invalid address format filled. Please fill all the required fields.
+Invalid user data in 'Licensing'.
+No channels selected for your content.]
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC001(OnboardingContributorTests.java:19)
+
+OnboardingContributor_TC003(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 234.238 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:64757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f24c86784dbdea4f703abf2541e436b7
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC003(OnboardingContributorTests.java:44)
+
+OnboardingContributor_TC007(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 222.691 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[1]/p"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50959}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f2627ff71f6d9170db97fe51f083628
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[1]/p}
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC007(OnboardingContributorTests.java:79)
+
+OnboardingContributor_TC008(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 217.365 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[2]/p"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22f85dc459e26a668d0910b6c9a47c35
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[2]/p}
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC008(OnboardingContributorTests.java:88)
+
+OnboardingContributor_TC011(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 1,121.053 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:59726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 245e98c95a1f07bcb70760bd882d0933
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC011(OnboardingContributorTests.java:118)
+
+OnboardingContributor_TC014(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 398.214 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7a23533dd643eadf135eb524f0678e5
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC014(OnboardingContributorTests.java:152)
+
+OnboardingContributor_TC015(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 398.087 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee328789f9ae6b9418ba378c5bace6ec
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC015(OnboardingContributorTests.java:162)
+
+OnboardingContributor_TC019(com.worldillustrated.TestCases.OnboardingContributorTests)  Time elapsed: 221.38 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[16]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 686d3d7ae9efb38f44de23983d0899b9
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[16]}
+	at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC019(OnboardingContributorTests.java:199)
+

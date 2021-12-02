@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" ignored="0" total="18" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3287589" started-at="2021-12-02T15:20:06 EET" finished-at="2021-12-02T16:14:53 EET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3287589" started-at="2021-12-02T15:20:06 EET" finished-at="2021-12-02T16:14:53 EET">
+      <class name="com.worldillustrated.TestCases.OnboardingContributorTests">
+        <test-method status="FAIL" signature="OnboardingContributor_TC001()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC001" duration-ms="48471" started-at="2021-12-02T15:20:06 EET" finished-at="2021-12-02T15:20:54 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Invalid user data in 'General information'.
+Invalid user data in 'Person responsible for this account'.
+Invalid address format filled. Please fill all the required fields.
+Invalid address format filled. Please fill all the required fields.
+Invalid user data in 'Licensing'.
+No channels selected for your content.] but found [Invalid user data in 'General information'.
+Invalid user data in 'Person responsible for this account'.
+Invalid address format filled. Please fill all the required fields.
+Invalid address format filled. Please fill all the required fields.
+Invalid user data in 'Licensing'.
+No channels selected for your content.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Invalid user data in 'General information'.
+Invalid user data in 'Person responsible for this account'.
+Invalid address format filled. Please fill all the required fields.
+Invalid address format filled. Please fill all the required fields.
+Invalid user data in 'Licensing'.
+No channels selected for your content.] but found [Invalid user data in 'General information'.
+Invalid user data in 'Person responsible for this account'.
+Invalid address format filled. Please fill all the required fields.
+Invalid address format filled. Please fill all the required fields.
+Invalid user data in 'Licensing'.
+No channels selected for your content.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.worldillustrated.BaseClasses.BaseUI.verifyMessage(BaseUI.java:153)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC001(OnboardingContributorTests.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC001 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-12-02T15:20:54 EET" finished-at="2021-12-02T15:20:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC002()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC002" duration-ms="48020" started-at="2021-12-02T15:20:54 EET" finished-at="2021-12-02T15:21:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC002 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-12-02T15:21:42 EET" finished-at="2021-12-02T15:21:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="OnboardingContributor_TC003()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC003" duration-ms="234236" started-at="2021-12-02T15:21:42 EET" finished-at="2021-12-02T15:25:37 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:64757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f24c86784dbdea4f703abf2541e436b7
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:64757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f24c86784dbdea4f703abf2541e436b7
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+at org.testng.Assert.fail(Assert.java:99)
+at com.worldillustrated.BaseClasses.BaseUI.getElement(BaseUI.java:248)
+at com.worldillustrated.BaseClasses.BaseUI.clickElement(BaseUI.java:187)
+at com.worldillustrated.TestCases.OnboardingContributorActions.fillDataInBillingAddress(OnboardingContributorActions.java:82)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC003(OnboardingContributorTests.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC003 -->
+        <test-method status="PASS" signature="OnboardingContributor_TC004()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC004" duration-ms="38872" started-at="2021-12-02T15:25:37 EET" finished-at="2021-12-02T15:26:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC004 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:25:37 EET" finished-at="2021-12-02T15:25:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:26:16 EET" finished-at="2021-12-02T15:26:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC005()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC005" duration-ms="39811" started-at="2021-12-02T15:26:16 EET" finished-at="2021-12-02T15:26:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC005 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:26:55 EET" finished-at="2021-12-02T15:26:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="OnboardingContributor_TC007()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC007" duration-ms="222685" started-at="2021-12-02T15:26:55 EET" finished-at="2021-12-02T15:30:38 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[1]/p"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50959}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f2627ff71f6d9170db97fe51f083628
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[1]/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[1]/p"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50959}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f2627ff71f6d9170db97fe51f083628
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[1]/p}
+at org.testng.Assert.fail(Assert.java:99)
+at com.worldillustrated.BaseClasses.BaseUI.getElement(BaseUI.java:248)
+at com.worldillustrated.BaseClasses.BaseUI.verifyErrorMessage(BaseUI.java:132)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC007(OnboardingContributorTests.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC007 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:30:38 EET" finished-at="2021-12-02T15:30:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="OnboardingContributor_TC008()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC008" duration-ms="217352" started-at="2021-12-02T15:30:38 EET" finished-at="2021-12-02T15:34:15 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[2]/p"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22f85dc459e26a668d0910b6c9a47c35
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[2]/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[2]/p"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22f85dc459e26a668d0910b6c9a47c35
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[4]/div[2]/form[2]/div/div[2]/div/div/div/div[1]/div[2]/p}
+at org.testng.Assert.fail(Assert.java:99)
+at com.worldillustrated.BaseClasses.BaseUI.getElement(BaseUI.java:248)
+at com.worldillustrated.BaseClasses.BaseUI.verifyErrorMessage(BaseUI.java:132)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC008(OnboardingContributorTests.java:88)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC008 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:34:15 EET" finished-at="2021-12-02T15:34:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC009()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC009" duration-ms="40715" started-at="2021-12-02T15:34:15 EET" finished-at="2021-12-02T15:34:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC009 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:34:56 EET" finished-at="2021-12-02T15:34:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC010()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC010" duration-ms="58148" started-at="2021-12-02T15:34:56 EET" finished-at="2021-12-02T15:35:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC010 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-12-02T15:35:54 EET" finished-at="2021-12-02T15:35:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="OnboardingContributor_TC011()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC011" duration-ms="1121050" started-at="2021-12-02T15:35:54 EET" finished-at="2021-12-02T15:54:35 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:59726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 245e98c95a1f07bcb70760bd882d0933
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:59726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 245e98c95a1f07bcb70760bd882d0933
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+at org.testng.Assert.fail(Assert.java:99)
+at com.worldillustrated.BaseClasses.BaseUI.getElement(BaseUI.java:248)
+at com.worldillustrated.BaseClasses.BaseUI.clickElement(BaseUI.java:187)
+at com.worldillustrated.TestCases.OnboardingContributorActions.fillDataInBillingAddress(OnboardingContributorActions.java:82)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC011(OnboardingContributorTests.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC011 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:54:35 EET" finished-at="2021-12-02T15:54:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC012()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC012" duration-ms="39615" started-at="2021-12-02T15:54:35 EET" finished-at="2021-12-02T15:55:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC012 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:55:15 EET" finished-at="2021-12-02T15:55:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC013()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC013" duration-ms="40294" started-at="2021-12-02T15:55:15 EET" finished-at="2021-12-02T15:55:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC013 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T15:55:55 EET" finished-at="2021-12-02T15:55:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="OnboardingContributor_TC014()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC014" duration-ms="398214" started-at="2021-12-02T15:55:55 EET" finished-at="2021-12-02T16:02:33 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7a23533dd643eadf135eb524f0678e5
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7a23533dd643eadf135eb524f0678e5
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+at org.testng.Assert.fail(Assert.java:99)
+at com.worldillustrated.BaseClasses.BaseUI.getElement(BaseUI.java:248)
+at com.worldillustrated.BaseClasses.BaseUI.clickElement(BaseUI.java:187)
+at com.worldillustrated.TestCases.OnboardingContributorActions.fillDataInBillingAddress(OnboardingContributorActions.java:82)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC014(OnboardingContributorTests.java:152)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC014 -->
+        <test-method status="FAIL" signature="OnboardingContributor_TC015()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC015" duration-ms="398084" started-at="2021-12-02T16:02:33 EET" finished-at="2021-12-02T16:09:12 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee328789f9ae6b9418ba378c5bace6ec
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[7]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee328789f9ae6b9418ba378c5bace6ec
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[7]}
+at org.testng.Assert.fail(Assert.java:99)
+at com.worldillustrated.BaseClasses.BaseUI.getElement(BaseUI.java:248)
+at com.worldillustrated.BaseClasses.BaseUI.clickElement(BaseUI.java:187)
+at com.worldillustrated.TestCases.OnboardingContributorActions.fillDataInBillingAddress(OnboardingContributorActions.java:82)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC015(OnboardingContributorTests.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC015 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T16:02:33 EET" finished-at="2021-12-02T16:02:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC016()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC016" duration-ms="41709" started-at="2021-12-02T16:09:12 EET" finished-at="2021-12-02T16:09:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC016 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T16:09:12 EET" finished-at="2021-12-02T16:09:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T16:09:53 EET" finished-at="2021-12-02T16:09:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC017()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC017" duration-ms="39450" started-at="2021-12-02T16:09:53 EET" finished-at="2021-12-02T16:10:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC017 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="2" started-at="2021-12-02T16:10:33 EET" finished-at="2021-12-02T16:10:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="OnboardingContributor_TC018()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC018" duration-ms="39396" started-at="2021-12-02T16:10:33 EET" finished-at="2021-12-02T16:11:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC018 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-02T16:11:12 EET" finished-at="2021-12-02T16:11:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="OnboardingContributor_TC019()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="OnboardingContributor_TC019" duration-ms="221371" started-at="2021-12-02T16:11:12 EET" finished-at="2021-12-02T16:14:53 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[16]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 686d3d7ae9efb38f44de23983d0899b9
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[16]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the Test Case: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/ul/li[16]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VI9DBK6', ip: '10.10.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 686d3d7ae9efb38f44de23983d0899b9
+*** Element info: {Using=xpath, value=/html/body/div[4]/div/ul/li[16]}
+at org.testng.Assert.fail(Assert.java:99)
+at com.worldillustrated.BaseClasses.BaseUI.getElement(BaseUI.java:248)
+at com.worldillustrated.BaseClasses.BaseUI.clickElement(BaseUI.java:187)
+at com.worldillustrated.TestCases.OnboardingContributorActions.fillDataInMailingAddress(OnboardingContributorActions.java:65)
+at com.worldillustrated.TestCases.OnboardingContributorTests.OnboardingContributor_TC019(OnboardingContributorTests.java:199)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnboardingContributor_TC019 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.OnboardingContributorTests@4c762604]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-12-02T16:14:53 EET" finished-at="2021-12-02T16:14:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.worldillustrated.TestCases.OnboardingContributorTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

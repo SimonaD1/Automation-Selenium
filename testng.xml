@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.worldillustrated.BaseClasses.BaseUI"/>
+      <class name="com.worldillustrated.TestCases.RegistrationProMemberTest"/>
+      <class name="com.worldillustrated.TestCases.PrivateRoutesTest"/>
+      <class name="com.worldillustrated.TestCases.RequestingApprovingFTPTest"/>
+      <class name="com.worldillustrated.TestCases.OnboardingPromemberTests"/>
+      <class name="com.worldillustrated.TestCases.UsersTest"/>
+      <class name="com.worldillustrated.TestCases.SearchTests"/>
+      <class name="com.worldillustrated.TestCases.OnboardingContributorTests"/>
+      <class name="com.worldillustrated.TestCases.ContentUploadFlowWaitingListTest"/>
+      <class name="com.worldillustrated.TestCases.ContentDetailsTest"/>
+      <class name="com.worldillustrated.TestCases.PaymentsTests"/>
+      <class name="com.worldillustrated.TestCases.ContentUploadIndividualTest"/>
+      <class name="com.worldillustrated.TestCases.ContentUploadFTPFlowTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-02T10:49:22 EET" name="Default suite" finished-at="2021-12-02T10:49:56 EET" duration-ms="34577">
+    <groups>
+    </groups>
+    <test started-at="2021-12-02T10:49:22 EET" name="Default test" finished-at="2021-12-02T10:49:56 EET" duration-ms="34577">
+      <class name="com.worldillustrated.TestCases.SearchTests">
+        <test-method signature="Search_TC001()[pri:0, instance:com.worldillustrated.TestCases.SearchTests@5038d0b5]" started-at="2021-12-02T10:49:22 EET" name="Search_TC001" finished-at="2021-12-02T10:49:56 EET" duration-ms="34527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_TC001 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.worldillustrated.TestCases.SearchTests@5038d0b5]" started-at="2021-12-02T10:49:56 EET" name="afterTest" finished-at="2021-12-02T10:49:56 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.worldillustrated.TestCases.SearchTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

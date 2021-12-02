@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.worldillustrated.TestCases.OnboardingContributorTests">
+        <methods>
+          <include name="OnboardingContributor_TC007"/>
+          <include name="OnboardingContributor_TC011"/>
+          <include name="OnboardingContributor_TC001"/>
+          <include name="OnboardingContributor_TC015"/>
+          <include name="OnboardingContributor_TC003"/>
+          <include name="OnboardingContributor_TC014"/>
+          <include name="afterTest"/>
+          <include name="OnboardingContributor_TC008"/>
+          <include name="OnboardingContributor_TC019"/>
+        </methods>
+      </class> <!-- com.worldillustrated.TestCases.OnboardingContributorTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
